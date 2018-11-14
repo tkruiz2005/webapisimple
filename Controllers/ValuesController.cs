@@ -24,7 +24,7 @@ namespace webapisimple.Controllers
         public ActionResult<IEnumerable<string>> Get()
         {
              _logger.LogInformation("GET api/values");
-            return new string[] { "value1", "value2" };
+            return new string[] { "Ver logs en terminal de  pods" };
         }
 
         // GET api/values/5
